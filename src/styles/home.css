@@ -1,0 +1,43 @@
+#home-background * {
+    margin: 0;
+    padding: 0;
+}
+
+#home-background {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://images.unsplash.com/photo-1570560258879-af7f8e1447ac?q=80&w=1674&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#home-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    gap: 1em;
+    background-color: rgba(0, 0, 0, .3);
+    padding: 1.5rem;
+    backdrop-filter: blur(5px);
+    border-radius: 8px;
+    color: var(--header-text);
+}
+
+#home-title {
+    font-size: 6em;
+}
+
+#home-desc {
+    font-size: 2em;
+    font-style: italic;
+}
+
+#home-tagline {
+    font-size: 1.3em;
+}
