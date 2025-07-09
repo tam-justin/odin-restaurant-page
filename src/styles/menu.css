@@ -1,0 +1,22 @@
+#menu-background {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-rows: auto 1fr;
+    background-color: var(--menu-background-color);
+}
+
+#menu-title {
+    font-size: 4rem;
+    padding: .2rem 2rem;
+    color: white;
+    justify-self: center;
+}
+
+#menu {
+    justify-self: center;
+    width: clamp(300px, 30%, 40%);
+    height: 95%;
+    background-color: var(--menu-background);
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, .5);
+}

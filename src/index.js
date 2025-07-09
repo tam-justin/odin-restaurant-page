@@ -2,7 +2,8 @@
  * Imports
  */
 import "./styles/default.css";
-import "./styles/home.css"
+import "./styles/home.css";
+import "./styles/menu.css";
 import initialLoad from "./functions/initialLoad.js"
 
 import menu from "./pages/menu.js";
