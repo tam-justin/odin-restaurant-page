@@ -2,4 +2,20 @@
     background-color: var(--background-color);
     height: 100%;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+#about-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#about-title {
+    color: var(--header-text);
+    font-size: 6em;
+}
+
