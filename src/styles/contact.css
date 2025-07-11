@@ -1,0 +1,56 @@
+#contact-background {
+    background-color: var(--background-color);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact-container {
+    background-color: white;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    width: 75%;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, .2);
+}
+
+#contact-section {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding: 1em;
+}
+
+#contact-title {
+    font-size: 2rem;
+}
+
+#contact-form {
+    display: grid;
+    gap: .5em;
+}
+
+#contact-message {
+    height: 15rem;
+    resize: none;
+}
+
+#charCount {
+    justify-self: end;
+}
+
+#location-section {
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+#location {
+    font-size: 1.5em;
+}
+
+#location-title {
+    font-size: 2rem;
+}

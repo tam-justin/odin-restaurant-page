@@ -12,10 +12,23 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    gap: 1em;
 }
 
 #about-title {
     color: var(--header-text);
     font-size: 6em;
+}
+
+#about-line {
+    color: var(--header-text);
+    font-size: 2em;
+    text-align: center;
+}
+
+#about-desc {
+    color: var(--header-text);
+    font-size: 2em;
+    text-align: center;
 }
 
